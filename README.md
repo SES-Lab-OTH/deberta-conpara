@@ -118,9 +118,12 @@ Known limits, measured:
 ```
 src/          conpara.py (inference), unicode_preprocessing_v2.py (the normaliser),
               features.py (the 30/62-feature extractors used by the ablations)
-training/     corpus construction, leakage-free splitting, the training loop
+training/     the v2.18 pipeline behind the released checkpoint, published as run
+              (README with commands, settings and md5 manifest); legacy_v217/
 evaluation/   the fixed-threshold protocol, competitor evaluation, RAID submission
-results/      per-cell metrics behind the paper's tables
+              (byte-identical to the runs behind the paper); legacy/ older versions
+results/      per-cell metrics behind the paper's tables; training_logs/ of the
+              released run
 figures/      figure sources, regenerable
 docs/         the protocol in prose, and the negative results
 ```

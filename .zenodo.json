@@ -1,0 +1,17 @@
+{
+  "title": "DeBERTa-ConPara: attack-aware and deployment-realistic detection of AI-generated text (code and released model)",
+  "upload_type": "software",
+  "version": "1.0.0",
+  "description": "<p>Code for <em>DeBERTa-ConPara: Attack-Aware and Deployment-Realistic Detection of AI-Generated Text</em> (AACL-IJCNLP 2026, arXiv:2610.00883): inference API and demo, the Unicode normaliser, the complete v2.18 training pipeline that produced the released checkpoint (published as run, with an md5 manifest), and the evaluation scripts behind the paper's tables (cross-dataset fixed-threshold protocol, competitor comparison, RAID leaderboard submission). The released weights are on the Hugging Face Hub (SES-Lab-OTH/deberta-conpara). On the official RAID leaderboard: AUROC 99.61 %, TPR 96.57 % at 1 % FPR.</p><p>Smart Embedded Systems Lab, OTH Regensburg.</p>",
+  "creators": [
+    {"name": "Mady, Mohamed", "affiliation": "OTH Regensburg; Technical University of Munich"}
+  ],
+  "license": "mit",
+  "keywords": ["AI-generated text detection", "machine-generated text", "adversarial robustness", "Unicode normalisation", "DeBERTa", "RAID benchmark"],
+  "communities": [{"identifier": "ses-lab-oth"}],
+  "related_identifiers": [
+    {"identifier": "arXiv:2610.00883", "relation": "isSupplementTo", "scheme": "arxiv", "resource_type": "publication-conferencepaper"},
+    {"identifier": "https://huggingface.co/SES-Lab-OTH/deberta-conpara", "relation": "isSupplementedBy", "scheme": "url"},
+    {"identifier": "https://huggingface.co/spaces/mohamedmady/deberta-conpara", "relation": "isSupplementedBy", "scheme": "url"}
+  ]
+}

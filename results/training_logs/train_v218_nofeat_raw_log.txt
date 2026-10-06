@@ -1,0 +1,127 @@
+======================================================================
+  DeBERTa-ConPara v2.18
+  2026-08-19 18:12:15   device cuda
+======================================================================
+
+  PHASE 1: load pre-built splits
+  train 1,549,358  (h 774,679 / ai 774,679)
+  val   172,826  (h 86,413 / ai 86,413)
+
+  PHASE 2: refit RobustScaler + MI selection on v2.18 train
+  selected 30: [0, 1, 2, 3, 9, 10, 11, 12, 13, 15, 19, 24, 25, 26, 27, 28, 29, 30, 31, 34, 35, 36, 37, 38, 39, 40, 42, 45, 59, 61]
+  MI range 0.0286 .. 0.1336
+
+  PHASE 3: train
+  steps/epoch 48,417  total 242,085
+
+  epoch 1  loss 0.1166  acc 0.9500  (14.55 h)
+    BA@0 94.13  BA* 95.33 (margin +2.746)  AUROC 0.99151
+    TPR@1% 87.68   TPR@5% 95.54
+    per source:
+      HC3_Plus        n= 16,000  BA  90.29  TPR@1%  79.97
+      M4              n=  7,570  BA  98.23  TPR@1%  97.38
+      MAGE            n= 56,792  BA  93.94  TPR@1%  83.76
+      WikiHow         n=  1,424  BA 100.00  TPR@1% 100.00
+    per RAID domain:
+      abstracts       n=  7,883  BA  93.15  TPR@1%  86.55
+      books           n=  7,471  BA  92.53  TPR@1%  86.55
+      news            n=  7,469  BA  90.62  TPR@1%  70.39
+      poetry          n=  6,186  BA  93.13  TPR@1%  81.48
+      recipes         n=  5,758  BA  98.06  TPR@1%  98.60
+      reddit          n=  9,889  BA  95.00  TPR@1%  86.97
+      reviews         n=  6,136  BA  94.91  TPR@1%  89.75
+      wiki            n=  7,592  BA  92.82  TPR@1%  74.25
+    saved best-BA -> 4ds_deberta_v3_large_v218_nofeat_raw_20260819_181215_s42.pt
+
+  epoch 2  loss 0.0484  acc 0.9831  (14.55 h)
+    BA@0 95.51  BA* 96.20 (margin +2.942)  AUROC 0.99400
+    TPR@1% 91.78   TPR@5% 96.90
+    per source:
+      HC3_Plus        n= 16,000  BA  92.11  TPR@1%  82.22
+      M4              n=  7,570  BA  98.70  TPR@1%  98.36
+      MAGE            n= 56,792  BA  95.80  TPR@1%  92.12
+      WikiHow         n=  1,424  BA 100.00  TPR@1% 100.00
+    per RAID domain:
+      abstracts       n=  7,883  BA  93.90  TPR@1%  84.49
+      books           n=  7,471  BA  94.51  TPR@1%  91.13
+      news            n=  7,469  BA  93.13  TPR@1%  80.83
+      poetry          n=  6,186  BA  95.68  TPR@1%  85.44
+      recipes         n=  5,758  BA  98.61  TPR@1%  98.62
+      reddit          n=  9,889  BA  95.11  TPR@1%  89.25
+      reviews         n=  6,136  BA  95.67  TPR@1%  92.78
+      wiki            n=  7,592  BA  94.46  TPR@1%  83.82
+    saved best-BA -> 4ds_deberta_v3_large_v218_nofeat_raw_20260819_181215_s42.pt
+
+  epoch 3  loss 0.0260  acc 0.9920  (14.73 h)
+    BA@0 95.80  BA* 96.32 (margin +4.828)  AUROC 0.99331
+    TPR@1% 91.14   TPR@5% 97.07
+    per source:
+      HC3_Plus        n= 16,000  BA  92.36  TPR@1%  82.33
+      M4              n=  7,570  BA  98.67  TPR@1%  98.61
+      MAGE            n= 56,792  BA  95.65  TPR@1%  88.09
+      WikiHow         n=  1,424  BA 100.00  TPR@1% 100.00
+    per RAID domain:
+      abstracts       n=  7,883  BA  94.22  TPR@1%  86.13
+      books           n=  7,471  BA  95.65  TPR@1%  91.56
+      news            n=  7,469  BA  93.24  TPR@1%  75.60
+      poetry          n=  6,186  BA  95.32  TPR@1%  80.13
+      recipes         n=  5,758  BA  98.68  TPR@1%  98.81
+      reddit          n=  9,889  BA  95.66  TPR@1%  89.59
+      reviews         n=  6,136  BA  95.23  TPR@1%  90.56
+      wiki            n=  7,592  BA  94.46  TPR@1%  86.30
+    saved best-BA -> 4ds_deberta_v3_large_v218_nofeat_raw_20260819_181215_s42.pt
+
+  epoch 4  loss 0.0123  acc 0.9966  (14.63 h)
+    BA@0 96.09  BA* 96.43 (margin +5.158)  AUROC 0.99385
+    TPR@1% 90.69   TPR@5% 97.32
+    per source:
+      HC3_Plus        n= 16,000  BA  91.89  TPR@1%  79.63
+      M4              n=  7,570  BA  98.71  TPR@1%  98.67
+      MAGE            n= 56,792  BA  95.71  TPR@1%  87.80
+      WikiHow         n=  1,424  BA 100.00  TPR@1% 100.00
+    per RAID domain:
+      abstracts       n=  7,883  BA  94.34  TPR@1%  85.85
+      books           n=  7,471  BA  93.55  TPR@1%  87.71
+      news            n=  7,469  BA  94.32  TPR@1%  83.85
+      poetry          n=  6,186  BA  95.99  TPR@1%  87.50
+      recipes         n=  5,758  BA  98.89  TPR@1%  99.14
+      reddit          n=  9,889  BA  95.64  TPR@1%  87.27
+      reviews         n=  6,136  BA  96.16  TPR@1%  91.44
+      wiki            n=  7,592  BA  94.15  TPR@1%  87.38
+    saved best-BA -> 4ds_deberta_v3_large_v218_nofeat_raw_20260819_181215_s42.pt
+
+  epoch 5  loss 0.0043  acc 0.9989  (14.61 h)
+    BA@0 95.85  BA* 96.51 (margin +7.741)  AUROC 0.99339
+    TPR@1% 90.15   TPR@5% 97.34
+    per source:
+      HC3_Plus        n= 16,000  BA  92.29  TPR@1%  79.87
+      M4              n=  7,570  BA  98.83  TPR@1%  98.89
+      MAGE            n= 56,792  BA  95.75  TPR@1%  82.61
+      WikiHow         n=  1,424  BA 100.00  TPR@1% 100.00
+    per RAID domain:
+      abstracts       n=  7,883  BA  94.46  TPR@1%  87.30
+      books           n=  7,471  BA  94.55  TPR@1%  87.91
+      news            n=  7,469  BA  93.37  TPR@1%  64.43
+      poetry          n=  6,186  BA  96.31  TPR@1%  75.43
+      recipes         n=  5,758  BA  99.21  TPR@1%  99.33
+      reddit          n=  9,889  BA  94.97  TPR@1%  80.61
+      reviews         n=  6,136  BA  95.91  TPR@1%  87.33
+      wiki            n=  7,592  BA  94.32  TPR@1%  85.80
+    saved best-BA -> 4ds_deberta_v3_large_v218_nofeat_raw_20260819_181215_s42.pt
+
+======================================================================
+  SUMMARY  (choose the checkpoint deliberately)
+======================================================================
+   epoch      BA*     AUROC   TPR@1%   TPR@5%
+       1    95.33   0.99151    87.68    95.54
+       2    96.20   0.99400    91.78    96.90
+       3    96.32   0.99331    91.14    97.07
+       4    96.43   0.99385    90.69    97.32
+       5    96.51   0.99339    90.15    97.34
+
+  best BA    : epoch 5  (96.51)
+  best TPR@1%: epoch 2  (91.78)
+  THESE DISAGREE. v2.17 had the same split -- epoch 1 won on
+  TPR@1% while epoch 5 won on BA. TPR@1% is the deployment
+  metric; epoch checkpoints are all on disk, so submit the
+  one that wins on the metric you are judged by.
