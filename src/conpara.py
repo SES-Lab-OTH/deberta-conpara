@@ -46,7 +46,7 @@ try:  # the repo's normaliser; falls back to the packaged copy
 except ImportError:  # pragma: no cover
     from src.unicode_preprocessing_v2 import unicode_normalize
 
-HF_REPO = "mohamedmady/deberta-conpara"
+HF_REPO = "SES-Lab-OTH/deberta-conpara"
 HF_FILE = "rawguard.pt"
 BACKBONE = "microsoft/deberta-v3-large"
 MAX_LEN = 512

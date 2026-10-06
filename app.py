@@ -60,7 +60,7 @@ sys.path.insert(0, os.path.join(os.path.dirname(__file__), "src"))
 from unicode_preprocessing_v2 import unicode_normalize
 
 # --------------------------------------------------------------- config ---
-REPO_ID   = os.environ.get("CONPARA_REPO", "mohamedmady/deberta-conpara")
+REPO_ID   = os.environ.get("CONPARA_REPO", "SES-Lab-OTH/deberta-conpara")
 CKPT_FILE = os.environ.get("CONPARA_CKPT", "rawguard.pt")
 BACKBONE  = "microsoft/deberta-v3-large"
 HIDDEN    = 1024

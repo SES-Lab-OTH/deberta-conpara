@@ -1,6 +1,6 @@
 # DeBERTa-ConPara: robust detection of AI-generated text
 
-[![Model](https://img.shields.io/badge/%F0%9F%A4%97%20Model-deberta--conpara-blue)](https://huggingface.co/mohamedmady/deberta-conpara)
+[![Model](https://img.shields.io/badge/%F0%9F%A4%97%20Model-deberta--conpara-blue)](https://huggingface.co/SES-Lab-OTH/deberta-conpara)
 [![Demo](https://img.shields.io/badge/%F0%9F%A4%97%20Demo-Space-orange)](https://huggingface.co/spaces/mohamedmady/deberta-conpara)
 [![Paper](https://img.shields.io/badge/Paper-AACL--IJCNLP%202026-1f6feb)](https://arxiv.org/abs/2610.00883)
 [![arXiv](https://img.shields.io/badge/arXiv-2610.00883-b31b1b)](https://arxiv.org/abs/2610.00883)

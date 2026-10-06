@@ -8,7 +8,7 @@ identifiers:
   - type: url
     value: "https://arxiv.org/abs/2610.00883"
     description: "arXiv preprint of the paper"
-url: "https://huggingface.co/mohamedmady/deberta-conpara"
+url: "https://huggingface.co/SES-Lab-OTH/deberta-conpara"
 authors:
   - family-names: Mady
     given-names: Mohamed
