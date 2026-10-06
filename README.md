@@ -5,6 +5,7 @@
 [![Paper](https://img.shields.io/badge/Paper-AACL--IJCNLP%202026-1f6feb)](https://arxiv.org/abs/2610.00883)
 [![arXiv](https://img.shields.io/badge/arXiv-2610.00883-b31b1b)](https://arxiv.org/abs/2610.00883)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23198565.svg)](https://doi.org/10.5281/zenodo.23198565)
 
 **Paper:** [DeBERTa-ConPara: Attack-Aware and Deployment-Realistic Detection of AI-Generated Text](https://arxiv.org/abs/2610.00883),
 AACL-IJCNLP 2026 (main conference). Developed at the [Smart Embedded Systems Lab](https://github.com/SES-Lab-OTH), OTH Regensburg.

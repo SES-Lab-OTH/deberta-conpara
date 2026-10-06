@@ -3,8 +3,12 @@ message: "If you use this software, please cite the paper below."
 title: "DeBERTa-ConPara"
 version: "1.0.0"
 date-released: 2026-10-06
+doi: "10.5281/zenodo.23198565"
 repository-code: "https://github.com/SES-Lab-OTH/deberta-conpara"
 identifiers:
+  - type: doi
+    value: "10.5281/zenodo.23198565"
+    description: "Zenodo archive of this software (concept DOI, all versions)"
   - type: url
     value: "https://arxiv.org/abs/2610.00883"
     description: "arXiv preprint of the paper"
