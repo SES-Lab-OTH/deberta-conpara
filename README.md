@@ -135,6 +135,12 @@ contrastive learning (ConPara) does not help, and the 30-feature fusion branch i
 inert in distribution and harmful outside it, including a 49.8-point loss on RAID
 poetry.
 
+## Questions and feedback
+
+Questions about using the model, reproducing the paper or the data are welcome in
+[Discussions](https://github.com/SES-Lab-OTH/deberta-conpara/discussions). For bugs,
+please open an [issue](https://github.com/SES-Lab-OTH/deberta-conpara/issues).
+
 ## Citation
 
 ```bibtex
